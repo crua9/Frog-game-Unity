@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\DontDestroy.cs" />
     <Compile Include="Assets\Scripts\FlyMovement.cs" />
     <Compile Include="Assets\Scripts\FlyPickup.cs" />
+    <Compile Include="Assets\Scripts\FlySpawner.cs" />
     <Compile Include="Assets\Scripts\FollowCamera.cs" />
     <Compile Include="Assets\Scripts\GameQuality.cs" />
     <Compile Include="Assets\Scripts\PickupParticlesDestruction.cs" />
