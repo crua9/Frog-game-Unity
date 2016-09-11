@@ -1,9 +1,12 @@
 Base path: C:/Program Files/Unity/Editor/Data
 Cmd: getPlatforms
 <<<<<<< HEAD
+<<<<<<< HEAD
 Cmd: compileSnippet
   api=4 type=0 insize=1934 outsize=942 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
 Cmd: compileSnippet
   api=4 type=1 insize=1934 outsize=3186 kw=DIRECTIONAL pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BOX_PROJECTION UNITY_SPECCUBE_BLENDING ok=1
+=======
+>>>>>>> parent of 4c595be... Moving1
 =======
 >>>>>>> parent of 4c595be... Moving1
