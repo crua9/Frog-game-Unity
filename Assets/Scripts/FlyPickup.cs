@@ -12,6 +12,12 @@ public class FlyPickup : MonoBehaviour {
         {
             Instantiate(pickupPrefab, transform.position, Quaternion.identity);
             FlySpawner.totalFlies--;
+
+
+            //Update the score
+            ScoreCounter.score++;
+
+            //Destory the fly
             Destroy (gameObject);
         } 
     }

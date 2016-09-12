@@ -80,6 +80,8 @@
     <Compile Include="Assets\Scripts\GameQuality.cs" />
     <Compile Include="Assets\Scripts\PickupParticlesDestruction.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Playerhealth.cs" />
+    <Compile Include="Assets\Scripts\ScoreCounter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
