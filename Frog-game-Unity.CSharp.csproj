@@ -83,6 +83,7 @@
     <Compile Include="Assets\Scripts\PickupParticlesDestruction.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Playerhealth.cs" />
+    <Compile Include="Assets\Scripts\RandomSoundPlayer.cs" />
     <Compile Include="Assets\Scripts\ScoreCounter.cs" />
   </ItemGroup>
   <ItemGroup>
