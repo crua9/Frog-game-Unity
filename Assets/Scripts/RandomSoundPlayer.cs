@@ -12,7 +12,7 @@ public class RandomSoundPlayer : MonoBehaviour {
     private float soundtimer;
     // Use this for initialization
     void Start () {
-        audiosource = GetHashCode<audiosource>();
+        audiosource = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame

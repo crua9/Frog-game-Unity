@@ -49,7 +49,7 @@ public class GameState : MonoBehaviour {
             restarttimer = restarttimer + Time.deltaTime;
 
             //timer reached timer delay
-            if (restarttimer >= restartDelay)
+           if (restarttimer >= restartDelay)
             {
                 Application.LoadLevel(Application.loadedLevel);
             }
