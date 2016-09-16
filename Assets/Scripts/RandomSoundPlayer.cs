@@ -17,7 +17,18 @@ public class RandomSoundPlayer : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        //May need to work on this line. It was too dark for me to really tell what I am typing.
+       
         soundtimer = soundtimer + Time.deltaTime;
+
+        if (soundtimer >= soundTimerDelay)
+        {
+            //reset timer
+            soundtimer = 0f;
+            //pick a random sound
+            AudioClip randomSound = soundClips[Random.Range(0, soundClips.Count)];
+
+            //play the sound
+            audiosource.PlayOneShot(randomSound);
+        }
 	}
 }
